@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>LAB Y Investments</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <style>
+      body {
+        margin: 0;
+        font-family: 'Open Sans', sans-serif;
+      }
+      
+      header {
+        background-color: #1C2331;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        font-weight: bold;
+        font-size: 24px;
+      }
+      
+      nav {
+        background-color: #333;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+      }
+      
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px;
+      }
+      
+      nav a:hover {
+        background-color: #666;
+      }
+      
+      section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: calc(100vh - 140px);
+      }
+      
+      section h1 {
+        font-size: 48px;
+        margin-bottom: 20px;
+      }
+      
+      section p {
+        font-size: 24px;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      
+      section button {
+        background-color: #1C2331;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 18px;
+        cursor: pointer;
+      }
+      
+      section button:hover {
+        background-color: #666;
+      }
+      
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+      }
+      
+      @media screen and (max-width: 600px) {
+        section h1 {
+          font-size: 36px;
+        }
+        
+        section p {
+          font-size: 18px;
+        }
+        
+        section button {
+          font-size: 16px;
+        }
+      }
+    </style>
+  </head>
+  
+  <body>
+    <header>
+      <h1>LAB Y Investments</h1>
+    </header>
+    
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About Us</a>
+      <a href="#">Investments</a>
+      <a href="#">Contact Us</a>
+    </nav>
+    
+    <section>
+      <h1>Welcome to LAB Y Investments</h1>
+      <p>We specialize in investing in cryptocurrencies and blockchain technology.</p>
+      <button>Get Started</button>
+    </section>
+    
+    <footer>
+      <p>&copy; 2023 LAB Y Investments. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
